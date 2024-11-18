@@ -1,0 +1,18 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #A12320;
+}
+
+.card-product {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-product:hover {
+    transform: scale(1.01);
+}
+
+.card-product .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
